@@ -1,0 +1,21 @@
+# Locators
+
+# Cart Flow
+btn_add_product_backpack_locator = "//button[@id='add-to-cart-sauce-labs-backpack']"
+btn_add_product_bike_light_locator = "//button[@id='add-to-cart-sauce-labs-bike-light']"
+btn_shopping_cart_badge_locator = "//span[@class='shopping_cart_badge']"
+cart_list_locator = "//div[@class='cart_list']"
+btn_remove_backpack_locator = "//button[@id='remove-sauce-labs-backpack']"
+btn_remove_bikelight_locator = "//button[@id='remove-sauce-labs-bike-light']"
+btn_continue_shopping_locator = "//button[@id='continue-shopping']"
+btn_checkout_locator = "//button[@id='checkout']"
+txt_user_info_firstname_locator = "//input[@id='first-name']"
+txt_user_info_lastname_locator = "//input[@id='last-name']"
+txt_user_postal_code_locator = "//input[@id='postal-code']"
+btn_continue_locator = "//input[@id='continue']"
+cart_summary_info = "//div[@class='summary_info']"
+cart_summary_subtotal_locator = "//div[@class='summary_subtotal_label']"
+cart_payment_value_locator = "(//div[@class='summary_value_label'])[1]"
+cart_shipping_value_locator = "(//div[@class='summary_value_label'])[2]"
+btn_finish_locator = "//button[@id='finish']"
+txt_success_locator = "//h2[contains(text(),'Thank you for your order!')]"
